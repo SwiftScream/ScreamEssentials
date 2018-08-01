@@ -1,0 +1,17 @@
+SDKROOT = watchos
+WATCHOS_DEPLOYMENT_TARGET = 3.0
+TARGETED_DEVICE_FAMILY = 4
+
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+SKIP_INSTALL = YES
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+INFOPLIST_FILE = Example-watch/Extension/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = com.swiftscream.ScreamEssentialsExample.watchkitapp.watchkitextension
+PRODUCT_NAME = $(TARGET_NAME)
+
+SIMULATOR_ONLY_ADDITIONAL_LDFLAGS[sdk=watchsimulator*] = -fprofile-instr-generate
+OTHER_LDFLAGS = -framework ScreamEssentials $(SIMULATOR_ONLY_ADDITIONAL_LDFLAGS)
+
+CODE_SIGN_IDENTITY = iPhone Developer
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM =

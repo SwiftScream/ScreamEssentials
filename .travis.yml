@@ -1,0 +1,36 @@
+language: swift
+os: osx
+osx_image: xcode9.3
+
+install:
+  - gem install xcpretty
+
+jobs:
+  include:
+    - script:
+      - set -o pipefail && xcodebuild test -project ScreamEssentials.xcodeproj -scheme ScreamEssentials-ios -destination "platform=iOS Simulator,name=iPhone X"  | xcpretty -c
+      - bash <(curl -s https://codecov.io/bash) -J Tests-ios -F ios
+      name: "iOS"
+    - script:
+      - set -o pipefail && xcodebuild test -project ScreamEssentials.xcodeproj -scheme ScreamEssentials-mac -destination "platform=macos"  | xcpretty -c
+      - bash <(curl -s https://codecov.io/bash) -J Tests-mac -F mac
+      name: "mac"
+    - script:
+      - set -o pipefail && xcodebuild test -project ScreamEssentials.xcodeproj -scheme ScreamEssentials-tv -destination "platform=tvOS Simulator,name=Apple TV 4K"  | xcpretty -c
+      - bash <(curl -s https://codecov.io/bash) -J Tests-tv -F tv
+      name: "tv"
+    - script:
+      - set -o pipefail && xcodebuild build -project ScreamEssentials.xcodeproj -scheme ScreamEssentials-watch | xcpretty -c
+      name: "watch"
+    - script:
+      - set -o pipefail && xcodebuild build -project ScreamEssentials.xcodeproj -scheme ScreamEssentialsExample-ios -destination "platform=iOS Simulator,name=iPhone X" | xcpretty -c
+      name: "iOS Example"
+    - script:
+      - set -o pipefail && xcodebuild build -project ScreamEssentials.xcodeproj -scheme ScreamEssentialsExample-mac | xcpretty -c
+      name: "mac Example"
+    - script:
+      - set -o pipefail && xcodebuild build -project ScreamEssentials.xcodeproj -scheme ScreamEssentialsExample-tv -destination "platform=tvOS Simulator,name=Apple TV 4K" | xcpretty -c
+      name: "tv Example"
+    - script:
+      - set -o pipefail && xcodebuild build -project ScreamEssentials.xcodeproj -scheme ScreamEssentialsExample-watch -destination "platform=iOS Simulator,name=iPhone 8"| xcpretty -c
+      name: "watch Example"

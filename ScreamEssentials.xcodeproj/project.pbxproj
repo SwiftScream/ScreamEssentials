@@ -1,0 +1,1484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		958812352093549E0080D3D4 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 958812362093549E0080D3D4 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				95D06B8A20AAB13A005D6947 /* PBXTargetDependency */,
+				95D06B8C20AAB13A005D6947 /* PBXTargetDependency */,
+				95D06B8E20AAB13A005D6947 /* PBXTargetDependency */,
+				95D06B9020AAB13A005D6947 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9518468720DD294400F16EAC /* ScreamEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518468220DD294400F16EAC /* ScreamEssentials.swift */; };
+		9518468820DD294400F16EAC /* ScreamEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518468220DD294400F16EAC /* ScreamEssentials.swift */; };
+		9518468920DD294400F16EAC /* ScreamEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518468220DD294400F16EAC /* ScreamEssentials.swift */; };
+		9518468A20DD294400F16EAC /* ScreamEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9518468220DD294400F16EAC /* ScreamEssentials.swift */; };
+		9533E16620F47F0400ADECFD /* ScreamEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D06B7420AAB08E005D6947 /* ScreamEssentials.framework */; };
+		9533E16720F47F1200ADECFD /* ScreamEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9549657B20A41AAD00BD6E16 /* ScreamEssentials.framework */; };
+		9533E16820F47F1E00ADECFD /* ScreamEssentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9549658D20A4230500BD6E16 /* ScreamEssentials.framework */; };
+		95499A2E20EDE81E002ED05D /* EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95499A2D20EDE81E002ED05D /* EssentialsTests.swift */; };
+		95499A2F20EDE81E002ED05D /* EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95499A2D20EDE81E002ED05D /* EssentialsTests.swift */; };
+		95499A3020EDE81E002ED05D /* EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95499A2D20EDE81E002ED05D /* EssentialsTests.swift */; };
+		958812462096A0980080D3D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958812452096A0980080D3D4 /* AppDelegate.swift */; };
+		958812482096A0980080D3D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958812472096A0980080D3D4 /* ViewController.swift */; };
+		9588124D2096A09A0080D3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9588124C2096A09A0080D3D4 /* Assets.xcassets */; };
+		9588126A2096C7190080D3D4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958812682096C7190080D3D4 /* Interface.storyboard */; };
+		9588126C2096C7190080D3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9588126B2096C7190080D3D4 /* Assets.xcassets */; };
+		958812732096C7190080D3D4 /* ScreamEssentialsExample-watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 958812722096C7190080D3D4 /* ScreamEssentialsExample-watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		958812782096C7190080D3D4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958812772096C7190080D3D4 /* InterfaceController.swift */; };
+		9588127A2096C7190080D3D4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958812792096C7190080D3D4 /* ExtensionDelegate.swift */; };
+		9588127C2096C71A0080D3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9588127B2096C71A0080D3D4 /* Assets.xcassets */; };
+		958812802096C71A0080D3D4 /* ScreamEssentialsExample-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 958812662096C7190080D3D4 /* ScreamEssentialsExample-watch.app */; };
+		958812B72096ED170080D3D4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958812B62096ED170080D3D4 /* main.swift */; };
+		95C591891F6F7C1200C4405A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C591881F6F7C1200C4405A /* AppDelegate.swift */; };
+		95C5918B1F6F7C1200C4405A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5918A1F6F7C1200C4405A /* ViewController.swift */; };
+		95C591901F6F7C1200C4405A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C5918F1F6F7C1200C4405A /* Assets.xcassets */; };
+		95C591931F6F7C1200C4405A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C591911F6F7C1200C4405A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9533E15820F47E4000ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9549657A20A41AAD00BD6E16;
+			remoteInfo = "ScreamEssentials-ios-d";
+		};
+		9533E15A20F47E4A00ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D06B7320AAB08E005D6947;
+			remoteInfo = "ScreamEssentials-tv-d";
+		};
+		9533E15C20F47E5700ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D06B8020AAB126005D6947;
+			remoteInfo = "ScreamEssentials-watch-d";
+		};
+		9533E15E20F47E6000ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9549658C20A4230500BD6E16;
+			remoteInfo = "ScreamEssentials-mac-d";
+		};
+		9533E16020F47E7200ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9549658C20A4230500BD6E16;
+			remoteInfo = "ScreamEssentials-mac-d";
+		};
+		9533E16220F47E7A00ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9549657A20A41AAD00BD6E16;
+			remoteInfo = "ScreamEssentials-ios-d";
+		};
+		9533E16420F47E8200ADECFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D06B7320AAB08E005D6947;
+			remoteInfo = "ScreamEssentials-tv-d";
+		};
+		958812742096C7190080D3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958812712096C7190080D3D4;
+			remoteInfo = "ScreamEssentialsExample-watch Extension";
+		};
+		9588127E2096C71A0080D3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958812652096C7190080D3D4;
+			remoteInfo = "ScreamEssentialsExample-watch";
+		};
+		95D06B8920AAB13A005D6947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9549657A20A41AAD00BD6E16;
+			remoteInfo = "ScreamEssentials-ios-d";
+		};
+		95D06B8B20AAB13A005D6947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9549658C20A4230500BD6E16;
+			remoteInfo = "ScreamEssentials-mac-d";
+		};
+		95D06B8D20AAB13A005D6947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D06B7320AAB08E005D6947;
+			remoteInfo = "ScreamEssentials-tv-d";
+		};
+		95D06B8F20AAB13A005D6947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95D06B8020AAB126005D6947;
+			remoteInfo = "ScreamEssentials-watch-d";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		958812842096C71A0080D3D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				958812732096C7190080D3D4 /* ScreamEssentialsExample-watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812882096C71A0080D3D4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				958812802096C71A0080D3D4 /* ScreamEssentialsExample-watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812B22096ED160080D3D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9518468220DD294400F16EAC /* ScreamEssentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamEssentials.swift; sourceTree = "<group>"; };
+		953A282720FDA8E700B106D7 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9549657B20A41AAD00BD6E16 /* ScreamEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreamEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9549658D20A4230500BD6E16 /* ScreamEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreamEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954965D220AAA5B900BD6E16 /* FrameworkTarget-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FrameworkTarget-ios.xcconfig"; sourceTree = "<group>"; };
+		954965D320AAA5B900BD6E16 /* FrameworkTarget-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FrameworkTarget-mac.xcconfig"; sourceTree = "<group>"; };
+		954965D420AAA5B900BD6E16 /* FrameworkTarget-tv.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FrameworkTarget-tv.xcconfig"; sourceTree = "<group>"; };
+		954965D520AAA5B900BD6E16 /* FrameworkTarget-watch.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "FrameworkTarget-watch.xcconfig"; sourceTree = "<group>"; };
+		95499A2D20EDE81E002ED05D /* EssentialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialsTests.swift; sourceTree = "<group>"; };
+		958812432096A0980080D3D4 /* ScreamEssentialsExample-tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScreamEssentialsExample-tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958812452096A0980080D3D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		958812472096A0980080D3D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9588124C2096A09A0080D3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9588124E2096A09A0080D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958812542096A6900080D3D4 /* ExampleTarget-tv.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ExampleTarget-tv.xcconfig"; sourceTree = "<group>"; };
+		958812662096C7190080D3D4 /* ScreamEssentialsExample-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScreamEssentialsExample-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958812692096C7190080D3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9588126B2096C7190080D3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9588126D2096C7190080D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958812722096C7190080D3D4 /* ScreamEssentialsExample-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ScreamEssentialsExample-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958812772096C7190080D3D4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		958812792096C7190080D3D4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9588127B2096C71A0080D3D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9588127D2096C71A0080D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958812922096DAED0080D3D4 /* ExampleTarget-watch.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ExampleTarget-watch.xcconfig"; sourceTree = "<group>"; };
+		958812932096DAED0080D3D4 /* ExampleTarget-watch-ext.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ExampleTarget-watch-ext.xcconfig"; sourceTree = "<group>"; };
+		958812B42096ED160080D3D4 /* ScreamEssentialsExample-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ScreamEssentialsExample-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958812B62096ED170080D3D4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		958812BF2096EDBE0080D3D4 /* ExampleTarget-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ExampleTarget-mac.xcconfig"; sourceTree = "<group>"; };
+		958812D4209745FE0080D3D4 /* Tests-mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958812D8209745FE0080D3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958812E72097D88D0080D3D4 /* TestTarget-mac.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TestTarget-mac.xcconfig"; sourceTree = "<group>"; };
+		958812EC2097F3090080D3D4 /* Tests-ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-ios.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958812FC2097F5470080D3D4 /* TestTarget-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TestTarget-ios.xcconfig"; sourceTree = "<group>"; };
+		958813012097F8B70080D3D4 /* Tests-tv.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-tv.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958813112097FB130080D3D4 /* TestTarget-tv.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "TestTarget-tv.xcconfig"; sourceTree = "<group>"; };
+		95C591861F6F7C1200C4405A /* ScreamEssentialsExample-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScreamEssentialsExample-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C591881F6F7C1200C4405A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95C5918A1F6F7C1200C4405A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95C5918F1F6F7C1200C4405A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C591921F6F7C1200C4405A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C591941F6F7C1200C4405A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C5919F1F6F83B200C4405A /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		95C591A01F6F85F400C4405A /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		95C591A21F6F8B3C00C4405A /* ExampleTarget-ios.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "ExampleTarget-ios.xcconfig"; sourceTree = "<group>"; };
+		95C591A31F6F907300C4405A /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		95C591A41F6F909500C4405A /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		95D06B7420AAB08E005D6947 /* ScreamEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreamEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D06B8120AAB126005D6947 /* ScreamEssentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreamEssentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D06BA120AAB407005D6947 /* FrameworkInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FrameworkInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9549657720A41AAD00BD6E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9549658920A4230500BD6E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812402096A0980080D3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9588126F2096C7190080D3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812B12096ED160080D3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812D1209745FE0080D3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9533E16820F47F1E00ADECFD /* ScreamEssentials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812E92097F3090080D3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9533E16720F47F1200ADECFD /* ScreamEssentials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812FE2097F8B70080D3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9533E16620F47F0400ADECFD /* ScreamEssentials.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C591831F6F7C1200C4405A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7020AAB08E005D6947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7D20AAB126005D6947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958812442096A0980080D3D4 /* Example-tv */ = {
+			isa = PBXGroup;
+			children = (
+				958812452096A0980080D3D4 /* AppDelegate.swift */,
+				958812472096A0980080D3D4 /* ViewController.swift */,
+				9588124C2096A09A0080D3D4 /* Assets.xcassets */,
+				9588124E2096A09A0080D3D4 /* Info.plist */,
+			);
+			path = "Example-tv";
+			sourceTree = "<group>";
+		};
+		958812672096C7190080D3D4 /* Example-watch */ = {
+			isa = PBXGroup;
+			children = (
+				958812682096C7190080D3D4 /* Interface.storyboard */,
+				9588126B2096C7190080D3D4 /* Assets.xcassets */,
+				9588126D2096C7190080D3D4 /* Info.plist */,
+				958812762096C7190080D3D4 /* Extension */,
+			);
+			path = "Example-watch";
+			sourceTree = "<group>";
+		};
+		958812762096C7190080D3D4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				958812772096C7190080D3D4 /* InterfaceController.swift */,
+				958812792096C7190080D3D4 /* ExtensionDelegate.swift */,
+				9588127B2096C71A0080D3D4 /* Assets.xcassets */,
+				9588127D2096C71A0080D3D4 /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		958812B52096ED170080D3D4 /* Example-mac */ = {
+			isa = PBXGroup;
+			children = (
+				958812B62096ED170080D3D4 /* main.swift */,
+			);
+			path = "Example-mac";
+			sourceTree = "<group>";
+		};
+		958812BD2096ED700080D3D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		958812D5209745FE0080D3D4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				95499A2D20EDE81E002ED05D /* EssentialsTests.swift */,
+				958812D8209745FE0080D3D4 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		95C591691F6F7A1100C4405A = {
+			isa = PBXGroup;
+			children = (
+				953A282720FDA8E700B106D7 /* Playground.playground */,
+				95C591741F6F7A1100C4405A /* Source */,
+				95C591871F6F7C1200C4405A /* Example-ios */,
+				958812B52096ED170080D3D4 /* Example-mac */,
+				958812442096A0980080D3D4 /* Example-tv */,
+				958812672096C7190080D3D4 /* Example-watch */,
+				95C5919E1F6F833F00C4405A /* Configuration */,
+				958812D5209745FE0080D3D4 /* Tests */,
+				95C591731F6F7A1100C4405A /* Products */,
+				958812BD2096ED700080D3D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95C591731F6F7A1100C4405A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C591861F6F7C1200C4405A /* ScreamEssentialsExample-ios.app */,
+				958812432096A0980080D3D4 /* ScreamEssentialsExample-tv.app */,
+				958812662096C7190080D3D4 /* ScreamEssentialsExample-watch.app */,
+				958812722096C7190080D3D4 /* ScreamEssentialsExample-watch Extension.appex */,
+				958812B42096ED160080D3D4 /* ScreamEssentialsExample-mac */,
+				958812D4209745FE0080D3D4 /* Tests-mac.xctest */,
+				958812EC2097F3090080D3D4 /* Tests-ios.xctest */,
+				958813012097F8B70080D3D4 /* Tests-tv.xctest */,
+				9549657B20A41AAD00BD6E16 /* ScreamEssentials.framework */,
+				9549658D20A4230500BD6E16 /* ScreamEssentials.framework */,
+				95D06B7420AAB08E005D6947 /* ScreamEssentials.framework */,
+				95D06B8120AAB126005D6947 /* ScreamEssentials.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C591741F6F7A1100C4405A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9518468220DD294400F16EAC /* ScreamEssentials.swift */,
+				95D06BA120AAB407005D6947 /* FrameworkInfo.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		95C591871F6F7C1200C4405A /* Example-ios */ = {
+			isa = PBXGroup;
+			children = (
+				95C591881F6F7C1200C4405A /* AppDelegate.swift */,
+				95C5918A1F6F7C1200C4405A /* ViewController.swift */,
+				95C5918F1F6F7C1200C4405A /* Assets.xcassets */,
+				95C591911F6F7C1200C4405A /* LaunchScreen.storyboard */,
+				95C591941F6F7C1200C4405A /* Info.plist */,
+			);
+			path = "Example-ios";
+			sourceTree = "<group>";
+		};
+		95C5919E1F6F833F00C4405A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				95C5919F1F6F83B200C4405A /* Project.xcconfig */,
+				95C591A31F6F907300C4405A /* Project-Release.xcconfig */,
+				95C591A41F6F909500C4405A /* Project-Debug.xcconfig */,
+				954965D220AAA5B900BD6E16 /* FrameworkTarget-ios.xcconfig */,
+				954965D320AAA5B900BD6E16 /* FrameworkTarget-mac.xcconfig */,
+				954965D420AAA5B900BD6E16 /* FrameworkTarget-tv.xcconfig */,
+				954965D520AAA5B900BD6E16 /* FrameworkTarget-watch.xcconfig */,
+				958812FC2097F5470080D3D4 /* TestTarget-ios.xcconfig */,
+				958812E72097D88D0080D3D4 /* TestTarget-mac.xcconfig */,
+				958813112097FB130080D3D4 /* TestTarget-tv.xcconfig */,
+				95C591A21F6F8B3C00C4405A /* ExampleTarget-ios.xcconfig */,
+				958812BF2096EDBE0080D3D4 /* ExampleTarget-mac.xcconfig */,
+				958812542096A6900080D3D4 /* ExampleTarget-tv.xcconfig */,
+				958812922096DAED0080D3D4 /* ExampleTarget-watch.xcconfig */,
+				958812932096DAED0080D3D4 /* ExampleTarget-watch-ext.xcconfig */,
+				95C591A01F6F85F400C4405A /* Warnings.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9549657820A41AAD00BD6E16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9549658A20A4230500BD6E16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7120AAB08E005D6947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7E20AAB126005D6947 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9549657A20A41AAD00BD6E16 /* ScreamEssentials-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9549658020A41AAD00BD6E16 /* Build configuration list for PBXNativeTarget "ScreamEssentials-ios" */;
+			buildPhases = (
+				9549657620A41AAD00BD6E16 /* Sources */,
+				9549657720A41AAD00BD6E16 /* Frameworks */,
+				9549657820A41AAD00BD6E16 /* Headers */,
+				9549657920A41AAD00BD6E16 /* Resources */,
+				9533E17820F5D62E00ADECFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScreamEssentials-ios";
+			productName = "ScreamEssentials-ios-dylib";
+			productReference = 9549657B20A41AAD00BD6E16 /* ScreamEssentials.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9549658C20A4230500BD6E16 /* ScreamEssentials-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9549659220A4230500BD6E16 /* Build configuration list for PBXNativeTarget "ScreamEssentials-mac" */;
+			buildPhases = (
+				9549658820A4230500BD6E16 /* Sources */,
+				9549658920A4230500BD6E16 /* Frameworks */,
+				9549658A20A4230500BD6E16 /* Headers */,
+				9549658B20A4230500BD6E16 /* Resources */,
+				9533E17920F5D64100ADECFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScreamEssentials-mac";
+			productName = "ScreamEssentials-mac-dylib";
+			productReference = 9549658D20A4230500BD6E16 /* ScreamEssentials.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		958812422096A0980080D3D4 /* ScreamEssentialsExample-tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9588124F2096A09A0080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-tv" */;
+			buildPhases = (
+				9588123F2096A0980080D3D4 /* Sources */,
+				958812402096A0980080D3D4 /* Frameworks */,
+				958812412096A0980080D3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E15B20F47E4A00ADECFD /* PBXTargetDependency */,
+			);
+			name = "ScreamEssentialsExample-tv";
+			productName = "ScreamEssentialsExample-tv";
+			productReference = 958812432096A0980080D3D4 /* ScreamEssentialsExample-tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		958812652096C7190080D3D4 /* ScreamEssentialsExample-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958812852096C71A0080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-watch" */;
+			buildPhases = (
+				958812642096C7190080D3D4 /* Resources */,
+				958812842096C71A0080D3D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958812752096C7190080D3D4 /* PBXTargetDependency */,
+			);
+			name = "ScreamEssentialsExample-watch";
+			productName = "ScreamEssentialsExample-watch";
+			productReference = 958812662096C7190080D3D4 /* ScreamEssentialsExample-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		958812712096C7190080D3D4 /* ScreamEssentialsExample-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958812812096C71A0080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-watch Extension" */;
+			buildPhases = (
+				9588126E2096C7190080D3D4 /* Sources */,
+				9588126F2096C7190080D3D4 /* Frameworks */,
+				958812702096C7190080D3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E15D20F47E5700ADECFD /* PBXTargetDependency */,
+			);
+			name = "ScreamEssentialsExample-watch Extension";
+			productName = "ScreamEssentialsExample-watch Extension";
+			productReference = 958812722096C7190080D3D4 /* ScreamEssentialsExample-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		958812B32096ED160080D3D4 /* ScreamEssentialsExample-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958812BA2096ED170080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-mac" */;
+			buildPhases = (
+				958812B02096ED160080D3D4 /* Sources */,
+				958812B12096ED160080D3D4 /* Frameworks */,
+				958812B22096ED160080D3D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E15F20F47E6000ADECFD /* PBXTargetDependency */,
+			);
+			name = "ScreamEssentialsExample-mac";
+			productName = "ScreamEssentialsExample-mac";
+			productReference = 958812B42096ED160080D3D4 /* ScreamEssentialsExample-mac */;
+			productType = "com.apple.product-type.tool";
+		};
+		958812D3209745FE0080D3D4 /* Tests-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958812DC209745FE0080D3D4 /* Build configuration list for PBXNativeTarget "Tests-mac" */;
+			buildPhases = (
+				958812D0209745FE0080D3D4 /* Sources */,
+				958812D1209745FE0080D3D4 /* Frameworks */,
+				958812D2209745FE0080D3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E16120F47E7200ADECFD /* PBXTargetDependency */,
+			);
+			name = "Tests-mac";
+			productName = "Tests-mac";
+			productReference = 958812D4209745FE0080D3D4 /* Tests-mac.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		958812EB2097F3090080D3D4 /* Tests-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958812F42097F3090080D3D4 /* Build configuration list for PBXNativeTarget "Tests-ios" */;
+			buildPhases = (
+				958812E82097F3090080D3D4 /* Sources */,
+				958812E92097F3090080D3D4 /* Frameworks */,
+				958812EA2097F3090080D3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E16320F47E7A00ADECFD /* PBXTargetDependency */,
+			);
+			name = "Tests-ios";
+			productName = "Tests-ios";
+			productReference = 958812EC2097F3090080D3D4 /* Tests-ios.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		958813002097F8B70080D3D4 /* Tests-tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958813092097F8B70080D3D4 /* Build configuration list for PBXNativeTarget "Tests-tv" */;
+			buildPhases = (
+				958812FD2097F8B70080D3D4 /* Sources */,
+				958812FE2097F8B70080D3D4 /* Frameworks */,
+				958812FF2097F8B70080D3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E16520F47E8200ADECFD /* PBXTargetDependency */,
+			);
+			name = "Tests-tv";
+			productName = "Tests-tv";
+			productReference = 958813012097F8B70080D3D4 /* Tests-tv.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95C591851F6F7C1200C4405A /* ScreamEssentialsExample-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C591951F6F7C1200C4405A /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-ios" */;
+			buildPhases = (
+				95C591821F6F7C1200C4405A /* Sources */,
+				95C591831F6F7C1200C4405A /* Frameworks */,
+				95C591841F6F7C1200C4405A /* Resources */,
+				958812882096C71A0080D3D4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9533E15920F47E4000ADECFD /* PBXTargetDependency */,
+				9588127F2096C71A0080D3D4 /* PBXTargetDependency */,
+			);
+			name = "ScreamEssentialsExample-ios";
+			productName = ScreamEssentialsExample;
+			productReference = 95C591861F6F7C1200C4405A /* ScreamEssentialsExample-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95D06B7320AAB08E005D6947 /* ScreamEssentials-tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D06B7B20AAB08E005D6947 /* Build configuration list for PBXNativeTarget "ScreamEssentials-tv" */;
+			buildPhases = (
+				95D06B6F20AAB08E005D6947 /* Sources */,
+				95D06B7020AAB08E005D6947 /* Frameworks */,
+				95D06B7120AAB08E005D6947 /* Headers */,
+				95D06B7220AAB08E005D6947 /* Resources */,
+				9533E17A20F5D64800ADECFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScreamEssentials-tv";
+			productName = "ScreamEssentials-tv-d";
+			productReference = 95D06B7420AAB08E005D6947 /* ScreamEssentials.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95D06B8020AAB126005D6947 /* ScreamEssentials-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95D06B8620AAB126005D6947 /* Build configuration list for PBXNativeTarget "ScreamEssentials-watch" */;
+			buildPhases = (
+				95D06B7C20AAB126005D6947 /* Sources */,
+				95D06B7D20AAB126005D6947 /* Frameworks */,
+				95D06B7E20AAB126005D6947 /* Headers */,
+				95D06B7F20AAB126005D6947 /* Resources */,
+				9533E17B20F5D64F00ADECFD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScreamEssentials-watch";
+			productName = "ScreamEssentials-watch-d";
+			productReference = 95D06B8120AAB126005D6947 /* ScreamEssentials.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C5916A1F6F7A1100C4405A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SwiftScream;
+				TargetAttributes = {
+					9549657A20A41AAD00BD6E16 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					9549658C20A4230500BD6E16 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					958812352093549E0080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					958812422096A0980080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					958812652096C7190080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					958812712096C7190080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+					958812B32096ED160080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					958812D3209745FE0080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					958812EB2097F3090080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					958813002097F8B70080D3D4 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					95C591851F6F7C1200C4405A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					95D06B7320AAB08E005D6947 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					95D06B8020AAB126005D6947 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 95C5916D1F6F7A1100C4405A /* Build configuration list for PBXProject "ScreamEssentials" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C591691F6F7A1100C4405A;
+			productRefGroup = 95C591731F6F7A1100C4405A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9549657A20A41AAD00BD6E16 /* ScreamEssentials-ios */,
+				9549658C20A4230500BD6E16 /* ScreamEssentials-mac */,
+				95D06B7320AAB08E005D6947 /* ScreamEssentials-tv */,
+				95D06B8020AAB126005D6947 /* ScreamEssentials-watch */,
+				958812352093549E0080D3D4 /* All */,
+				95C591851F6F7C1200C4405A /* ScreamEssentialsExample-ios */,
+				958812422096A0980080D3D4 /* ScreamEssentialsExample-tv */,
+				958812652096C7190080D3D4 /* ScreamEssentialsExample-watch */,
+				958812712096C7190080D3D4 /* ScreamEssentialsExample-watch Extension */,
+				958812B32096ED160080D3D4 /* ScreamEssentialsExample-mac */,
+				958812D3209745FE0080D3D4 /* Tests-mac */,
+				958812EB2097F3090080D3D4 /* Tests-ios */,
+				958813002097F8B70080D3D4 /* Tests-tv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9549657920A41AAD00BD6E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9549658B20A4230500BD6E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812412096A0980080D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9588124D2096A09A0080D3D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812642096C7190080D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9588126C2096C7190080D3D4 /* Assets.xcassets in Resources */,
+				9588126A2096C7190080D3D4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812702096C7190080D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9588127C2096C71A0080D3D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812D2209745FE0080D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812EA2097F3090080D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812FF2097F8B70080D3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C591841F6F7C1200C4405A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C591931F6F7C1200C4405A /* LaunchScreen.storyboard in Resources */,
+				95C591901F6F7C1200C4405A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7220AAB08E005D6947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7F20AAB126005D6947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9533E17820F5D62E00ADECFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9533E17920F5D64100ADECFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9533E17A20F5D64800ADECFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9533E17B20F5D64F00ADECFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9549657620A41AAD00BD6E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518468720DD294400F16EAC /* ScreamEssentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9549658820A4230500BD6E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518468820DD294400F16EAC /* ScreamEssentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9588123F2096A0980080D3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958812482096A0980080D3D4 /* ViewController.swift in Sources */,
+				958812462096A0980080D3D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9588126E2096C7190080D3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9588127A2096C7190080D3D4 /* ExtensionDelegate.swift in Sources */,
+				958812782096C7190080D3D4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812B02096ED160080D3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958812B72096ED170080D3D4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812D0209745FE0080D3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95499A2E20EDE81E002ED05D /* EssentialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812E82097F3090080D3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95499A2F20EDE81E002ED05D /* EssentialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958812FD2097F8B70080D3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95499A3020EDE81E002ED05D /* EssentialsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C591821F6F7C1200C4405A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C5918B1F6F7C1200C4405A /* ViewController.swift in Sources */,
+				95C591891F6F7C1200C4405A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B6F20AAB08E005D6947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518468920DD294400F16EAC /* ScreamEssentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D06B7C20AAB126005D6947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518468A20DD294400F16EAC /* ScreamEssentials.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9533E15920F47E4000ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9549657A20A41AAD00BD6E16 /* ScreamEssentials-ios */;
+			targetProxy = 9533E15820F47E4000ADECFD /* PBXContainerItemProxy */;
+		};
+		9533E15B20F47E4A00ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D06B7320AAB08E005D6947 /* ScreamEssentials-tv */;
+			targetProxy = 9533E15A20F47E4A00ADECFD /* PBXContainerItemProxy */;
+		};
+		9533E15D20F47E5700ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D06B8020AAB126005D6947 /* ScreamEssentials-watch */;
+			targetProxy = 9533E15C20F47E5700ADECFD /* PBXContainerItemProxy */;
+		};
+		9533E15F20F47E6000ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9549658C20A4230500BD6E16 /* ScreamEssentials-mac */;
+			targetProxy = 9533E15E20F47E6000ADECFD /* PBXContainerItemProxy */;
+		};
+		9533E16120F47E7200ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9549658C20A4230500BD6E16 /* ScreamEssentials-mac */;
+			targetProxy = 9533E16020F47E7200ADECFD /* PBXContainerItemProxy */;
+		};
+		9533E16320F47E7A00ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9549657A20A41AAD00BD6E16 /* ScreamEssentials-ios */;
+			targetProxy = 9533E16220F47E7A00ADECFD /* PBXContainerItemProxy */;
+		};
+		9533E16520F47E8200ADECFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D06B7320AAB08E005D6947 /* ScreamEssentials-tv */;
+			targetProxy = 9533E16420F47E8200ADECFD /* PBXContainerItemProxy */;
+		};
+		958812752096C7190080D3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958812712096C7190080D3D4 /* ScreamEssentialsExample-watch Extension */;
+			targetProxy = 958812742096C7190080D3D4 /* PBXContainerItemProxy */;
+		};
+		9588127F2096C71A0080D3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958812652096C7190080D3D4 /* ScreamEssentialsExample-watch */;
+			targetProxy = 9588127E2096C71A0080D3D4 /* PBXContainerItemProxy */;
+		};
+		95D06B8A20AAB13A005D6947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9549657A20A41AAD00BD6E16 /* ScreamEssentials-ios */;
+			targetProxy = 95D06B8920AAB13A005D6947 /* PBXContainerItemProxy */;
+		};
+		95D06B8C20AAB13A005D6947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9549658C20A4230500BD6E16 /* ScreamEssentials-mac */;
+			targetProxy = 95D06B8B20AAB13A005D6947 /* PBXContainerItemProxy */;
+		};
+		95D06B8E20AAB13A005D6947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D06B7320AAB08E005D6947 /* ScreamEssentials-tv */;
+			targetProxy = 95D06B8D20AAB13A005D6947 /* PBXContainerItemProxy */;
+		};
+		95D06B9020AAB13A005D6947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95D06B8020AAB126005D6947 /* ScreamEssentials-watch */;
+			targetProxy = 95D06B8F20AAB13A005D6947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958812682096C7190080D3D4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958812692096C7190080D3D4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		95C591911F6F7C1200C4405A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C591921F6F7C1200C4405A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9549658120A41AAD00BD6E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D220AAA5B900BD6E16 /* FrameworkTarget-ios.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Debug;
+		};
+		9549658220A41AAD00BD6E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D220AAA5B900BD6E16 /* FrameworkTarget-ios.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Release;
+		};
+		9549659320A4230500BD6E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D320AAA5B900BD6E16 /* FrameworkTarget-mac.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Debug;
+		};
+		9549659420A4230500BD6E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D320AAA5B900BD6E16 /* FrameworkTarget-mac.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Release;
+		};
+		958812372093549E0080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		958812382093549E0080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		958812502096A09A0080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812542096A6900080D3D4 /* ExampleTarget-tv.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-tv";
+			};
+			name = Debug;
+		};
+		958812512096A09A0080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812542096A6900080D3D4 /* ExampleTarget-tv.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-tv";
+			};
+			name = Release;
+		};
+		958812822096C71A0080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812932096DAED0080D3D4 /* ExampleTarget-watch-ext.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-watch Extension";
+			};
+			name = Debug;
+		};
+		958812832096C71A0080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812932096DAED0080D3D4 /* ExampleTarget-watch-ext.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-watch Extension";
+			};
+			name = Release;
+		};
+		958812862096C71A0080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812922096DAED0080D3D4 /* ExampleTarget-watch.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-watch";
+			};
+			name = Debug;
+		};
+		958812872096C71A0080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812922096DAED0080D3D4 /* ExampleTarget-watch.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-watch";
+			};
+			name = Release;
+		};
+		958812B82096ED170080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812BF2096EDBE0080D3D4 /* ExampleTarget-mac.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-mac";
+			};
+			name = Debug;
+		};
+		958812B92096ED170080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812BF2096EDBE0080D3D4 /* ExampleTarget-mac.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-mac";
+			};
+			name = Release;
+		};
+		958812DD209745FE0080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812E72097D88D0080D3D4 /* TestTarget-mac.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		958812DE209745FE0080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812E72097D88D0080D3D4 /* TestTarget-mac.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		958812F52097F3090080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812FC2097F5470080D3D4 /* TestTarget-ios.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		958812F62097F3090080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958812FC2097F5470080D3D4 /* TestTarget-ios.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		9588130A2097F8B70080D3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958813112097FB130080D3D4 /* TestTarget-tv.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		9588130B2097F8B70080D3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958813112097FB130080D3D4 /* TestTarget-tv.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		95C591791F6F7A1100C4405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A41F6F909500C4405A /* Project-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		95C5917A1F6F7A1100C4405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A31F6F907300C4405A /* Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		95C591961F6F7C1200C4405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A21F6F8B3C00C4405A /* ExampleTarget-ios.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-ios";
+			};
+			name = Debug;
+		};
+		95C591971F6F7C1200C4405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A21F6F8B3C00C4405A /* ExampleTarget-ios.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "ScreamEssentialsExample-ios";
+			};
+			name = Release;
+		};
+		95D06B7920AAB08E005D6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D420AAA5B900BD6E16 /* FrameworkTarget-tv.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Debug;
+		};
+		95D06B7A20AAB08E005D6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D420AAA5B900BD6E16 /* FrameworkTarget-tv.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Release;
+		};
+		95D06B8720AAB126005D6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D520AAA5B900BD6E16 /* FrameworkTarget-watch.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Debug;
+		};
+		95D06B8820AAB126005D6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954965D520AAA5B900BD6E16 /* FrameworkTarget-watch.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ScreamEssentials;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9549658020A41AAD00BD6E16 /* Build configuration list for PBXNativeTarget "ScreamEssentials-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9549658120A41AAD00BD6E16 /* Debug */,
+				9549658220A41AAD00BD6E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9549659220A4230500BD6E16 /* Build configuration list for PBXNativeTarget "ScreamEssentials-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9549659320A4230500BD6E16 /* Debug */,
+				9549659420A4230500BD6E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958812362093549E0080D3D4 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812372093549E0080D3D4 /* Debug */,
+				958812382093549E0080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9588124F2096A09A0080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812502096A09A0080D3D4 /* Debug */,
+				958812512096A09A0080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958812812096C71A0080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812822096C71A0080D3D4 /* Debug */,
+				958812832096C71A0080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958812852096C71A0080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812862096C71A0080D3D4 /* Debug */,
+				958812872096C71A0080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958812BA2096ED170080D3D4 /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812B82096ED170080D3D4 /* Debug */,
+				958812B92096ED170080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958812DC209745FE0080D3D4 /* Build configuration list for PBXNativeTarget "Tests-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812DD209745FE0080D3D4 /* Debug */,
+				958812DE209745FE0080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958812F42097F3090080D3D4 /* Build configuration list for PBXNativeTarget "Tests-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958812F52097F3090080D3D4 /* Debug */,
+				958812F62097F3090080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958813092097F8B70080D3D4 /* Build configuration list for PBXNativeTarget "Tests-tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9588130A2097F8B70080D3D4 /* Debug */,
+				9588130B2097F8B70080D3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C5916D1F6F7A1100C4405A /* Build configuration list for PBXProject "ScreamEssentials" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C591791F6F7A1100C4405A /* Debug */,
+				95C5917A1F6F7A1100C4405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C591951F6F7C1200C4405A /* Build configuration list for PBXNativeTarget "ScreamEssentialsExample-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C591961F6F7C1200C4405A /* Debug */,
+				95C591971F6F7C1200C4405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D06B7B20AAB08E005D6947 /* Build configuration list for PBXNativeTarget "ScreamEssentials-tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D06B7920AAB08E005D6947 /* Debug */,
+				95D06B7A20AAB08E005D6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95D06B8620AAB126005D6947 /* Build configuration list for PBXNativeTarget "ScreamEssentials-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D06B8720AAB126005D6947 /* Debug */,
+				95D06B8820AAB126005D6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95C5916A1F6F7A1100C4405A /* Project object */;
+}
