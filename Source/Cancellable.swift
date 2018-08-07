@@ -12,13 +12,12 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-import XCTest
-import Dispatch
-import ScreamEssentials
+import Foundation
 
-class EssentialsTests: XCTestCase {
+public protocol Cancellable {
+    func cancel()
+}
 
-    func testExample() {
-    }
-
+public protocol AutoCancellable: Cancellable {
+    var cancelOnDeinit: Bool { get set }
 }
