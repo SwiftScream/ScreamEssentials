@@ -13,3 +13,25 @@
 //   limitations under the License.
 
 import Foundation
+
+final public class Atomic<T> {
+    private var value: T
+    let semaphore: DispatchSemaphore
+
+    public init(_ value: T) {
+        self.value = value
+        self.semaphore = DispatchSemaphore(value: 1)
+    }
+
+    public func perform<ReturnType>(_ block: (inout T) throws -> ReturnType) rethrows -> ReturnType {
+        self.semaphore.wait(); defer { self.semaphore.signal() }
+        return try block(&value)
+    }
+
+    public func getAndSet(_ value: T) -> T {
+        self.semaphore.wait(); defer { self.semaphore.signal() }
+        let old = self.value
+        self.value = value
+        return old
+    }
+}
