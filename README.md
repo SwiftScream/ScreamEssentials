@@ -16,10 +16,10 @@ Useful utilities for development with Swift
 Static Framework targets are provided for iOS, MacOS, tvOS, and watchOS; integrate them as you normally would.
 
 ### Carthage
-Add `github "SwiftScream/ScreamEssentials" ~> 0.1` to your Cartfile
+Add `github "SwiftScream/ScreamEssentials" ~> 1.1` to your Cartfile
 
 ### Swift Package Manager
-Add `.package(url: "https://github.com/SwiftScream/ScreamEssentials.git", from: "0.1.0")` to your package.swift dependencies
+Add `.package(url: "https://github.com/SwiftScream/ScreamEssentials.git", from: "1.1.0")` to your package.swift dependencies
 
 ## Usage
 
