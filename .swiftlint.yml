@@ -13,6 +13,9 @@ excluded:
   
 identifier_name:
   min_length: 1
+  
+type_name:
+  max_length: 50
 
 nesting:
   type_level:
